@@ -17,7 +17,7 @@ public class fliplartHomePageTest extends Base
 	{
 		flipkartHomePage obj=new flipkartHomePage(driver);
 		String actualResult = obj.searchItemInFlipKart("mobiles");
-		Assert.assertEquals(actualResult, "mobiles");
+		Assert.assertEquals(actualResult, "mobiles","results not matching ");
 		
 	}
 	
