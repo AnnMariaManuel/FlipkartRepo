@@ -5,8 +5,8 @@
     <classes>
       <class name="test.fliplartHomePageTest">
         <methods>
+          <include name="verifysearchIcon"/>
           <include name="launchFlipKart"/>
-          <include name="verifyFlipkartSearch"/>
           <include name="closeFlipKArt"/>
         </methods>
       </class> <!-- test.fliplartHomePageTest -->

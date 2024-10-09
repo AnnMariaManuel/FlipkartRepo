@@ -11,7 +11,7 @@ public class fliplartHomePageTest extends Base
 {
 	
 	
-	@Test
+	@Test(groups="Sanity Test",priority = 1)
 	
 	public void verifyFlipkartSearch()
 	{
@@ -22,11 +22,12 @@ public class fliplartHomePageTest extends Base
 	}
 	
 	
-	@Test(groups="Sanity Test")
+	@Test(groups="Sanity Test",priority = 2)
 	public void verifysearchIcon()
 	{
 		flipkartHomePage obj=new flipkartHomePage(driver);
-		obj.searchItem("laptop");
+		String result=obj.searchItemInFlipKart("laptops");
+		Assert.assertEquals(result, "laptops");
 	}
 	
 

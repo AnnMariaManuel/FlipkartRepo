@@ -1,25 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-09T06:37:52Z" name="Default suite" finished-at="2024-10-09T06:37:57Z" duration-ms="5564">
+  <suite started-at="2024-10-09T09:21:19Z" name="Regression Suite" finished-at="2024-10-09T09:21:28Z" duration-ms="9224">
     <groups>
+      <group name="Sanity Test">
+        <method signature="fliplartHomePageTest.verifyFlipkartSearch()[pri:1, instance:test.fliplartHomePageTest@600b90df]" name="verifyFlipkartSearch" class="test.fliplartHomePageTest"/>
+        <method signature="fliplartHomePageTest.verifysearchIcon()[pri:2, instance:test.fliplartHomePageTest@600b90df]" name="verifysearchIcon" class="test.fliplartHomePageTest"/>
+      </group> <!-- Sanity Test -->
     </groups>
-    <test started-at="2024-10-09T06:37:52Z" name="Default test" finished-at="2024-10-09T06:37:57Z" duration-ms="5564">
+    <test started-at="2024-10-09T09:21:19Z" name="Smoke Test" finished-at="2024-10-09T09:21:28Z" duration-ms="9224">
       <class name="test.fliplartHomePageTest">
-        <test-method is-config="true" signature="launchFlipKart()[pri:0, instance:test.fliplartHomePageTest@78d6692f]" started-at="2024-10-09T12:07:52Z" name="launchFlipKart" finished-at="2024-10-09T12:07:55Z" duration-ms="3743" status="PASS">
+        <test-method is-config="true" signature="launchFlipKart()[pri:0, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:19Z" name="launchFlipKart" finished-at="2024-10-09T14:51:23Z" duration-ms="3479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchFlipKart -->
-        <test-method signature="verifyFlipkartSearch()[pri:0, instance:test.fliplartHomePageTest@78d6692f]" started-at="2024-10-09T12:07:55Z" name="verifyFlipkartSearch" finished-at="2024-10-09T12:07:57Z" duration-ms="1543" status="PASS">
+        <test-method signature="verifyFlipkartSearch()[pri:1, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:23Z" name="verifyFlipkartSearch" finished-at="2024-10-09T14:51:24Z" duration-ms="1469" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFlipkartSearch -->
-        <test-method is-config="true" signature="closeFlipKArt()[pri:0, instance:test.fliplartHomePageTest@78d6692f]" started-at="2024-10-09T12:07:57Z" name="closeFlipKArt" finished-at="2024-10-09T12:07:57Z" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="closeFlipKArt()[pri:0, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:24Z" name="closeFlipKArt" finished-at="2024-10-09T14:51:24Z" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeFlipKArt -->
+        <test-method is-config="true" signature="launchFlipKart()[pri:0, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:24Z" name="launchFlipKart" finished-at="2024-10-09T14:51:27Z" duration-ms="2234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchFlipKart -->
+        <test-method signature="verifysearchIcon()[pri:2, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:27Z" name="verifysearchIcon" finished-at="2024-10-09T14:51:28Z" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifysearchIcon -->
+        <test-method is-config="true" signature="closeFlipKArt()[pri:0, instance:test.fliplartHomePageTest@600b90df]" started-at="2024-10-09T14:51:28Z" name="closeFlipKArt" finished-at="2024-10-09T14:51:28Z" duration-ms="283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeFlipKArt -->
       </class> <!-- test.fliplartHomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Smoke Test -->
+  </suite> <!-- Regression Suite -->
 </testng-results>
