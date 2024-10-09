@@ -21,5 +21,13 @@ public class fliplartHomePageTest extends Base
 		
 	}
 	
+	
+	@Test(groups="Sanity Test")
+	public void verifysearchIcon()
+	{
+		flipkartHomePage obj=new flipkartHomePage(driver);
+		obj.searchItem("laptop");
+	}
+	
 
 }
